@@ -1,0 +1,44 @@
+.main-body{
+    background-color: #17161a;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main-wrapper{
+    background-color: #17161a;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card   {
+    background-color: #2D2A32;
+
+    padding: 25px;
+    margin: 20px;
+
+    text-align: center;
+
+    width: 310px;
+    height: 350px;
+
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0.6em 0.6em 0px #DDD92A;
+}
+
+.card .socials{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
