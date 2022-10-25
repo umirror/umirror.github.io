@@ -1,3 +1,4 @@
+
 .welcome {
   background-color: #2d2a32;
   /* background-image: url("../resources/👍.jpg"); */
@@ -18,9 +19,35 @@
 
 .welcome-wrapper h3 {
   font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.welcome-logo:nth-child(1){
+  animation: welcome-animation ease-in 1s;
+}
+
+.welcome-logo:nth-child(2){
+  animation: welcome-animation ease-in 1.5s;
+}
+
+
+@keyframes welcome-animation{
+  0%{
+    opacity: 0%;
+  }
+  75%{
+    opacity: 1%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
 .welcome-wrapper h4 {
   font-size: 20px;
+  animation: welcome-animation ease-in 2s;
 }
 
 .scroll {
@@ -30,7 +57,7 @@
   border-radius: 60px;
   position: absolute;
 
-  top:70%;
+  top: 70%;
 }
 .scroll::before {
   content: "";
