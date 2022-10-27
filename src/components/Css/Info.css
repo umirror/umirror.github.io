@@ -45,9 +45,9 @@
       border: 2px solid;
       margin: 5px;
       padding: 5px;
+
     }
   }
-  
 
 /* .first-sec img{
     width: 50vh;
@@ -59,4 +59,8 @@
 .text {
   padding: 15px;
   color: white;
+
+  /* height: 30vh; */
+
+
 }

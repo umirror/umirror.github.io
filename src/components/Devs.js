@@ -21,7 +21,7 @@ function Devs() {
                     <div className="image">
                         <img src={enzo} />
                     </div>
-                    <div className="info_card">
+                    <div className="info-card">
                         <h4>Enzo Enrico</h4>
                         <h5>Lead Developer</h5>
                     </div>
@@ -41,7 +41,7 @@ function Devs() {
                     <div className="image">
                         <img src={luiz} />
                     </div>
-                    <div className="info_card">
+                    <div className="info-card">
                         <h4>Luiz Guilherme</h4>
                         <h5>Front-End Developer</h5>
                     </div>
@@ -58,7 +58,7 @@ function Devs() {
                     <div className="image">
                         <img src={julio} />
                     </div>
-                    <div className="info_card">
+                    <div className="info-card">
                         <h4>Júlio César</h4>
                         <h5>Analytic Developer</h5>
                     </div>
@@ -78,7 +78,7 @@ function Devs() {
                     <div className="image">
                         <img src={lucas} />
                     </div>
-                    <div className="info_card">
+                    <div className="info-card">
                         <h4>Lucas Gabriel</h4>
                         <h5>Device Architeture</h5>
                     </div>
@@ -98,7 +98,7 @@ function Devs() {
                     <div className="image">
                         <img src={joao} />
                     </div>
-                    <div className="info_card">
+                    <div className="info-card">
                         <h4>João Manuel</h4>
                         <h5>Product Designer</h5>
                     </div>

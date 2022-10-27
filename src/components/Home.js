@@ -19,7 +19,11 @@ function Home() {
                     </h3>
                     <h4>O espelho que cuida de você</h4>
                 </div>
+                <div className="scroll-wrapper" onClick={() =>{
+                    window.location.replace('/.main-body')
+                }}>
                 <div className="scroll"></div>
+                </div>
             </section>
         </div>
     )

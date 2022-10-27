@@ -1,54 +1,58 @@
-.main-body{
-    background-color: #17161a;
-    height: 100%;
-    width: 100%;
+.main-body {
+  background-color: #17161a;
+  height: 100%;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.main-wrapper{
-    background-color: #17161a;
-    height: 100%;
-    width: 90%;
+.main-wrapper {
+  background-color: #17161a;
+  height: 100%;
+  width: 90%;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.card   {
-    background-color: #2D2A32;
-
-    padding: 25px;
-    margin: 30px;
-
-    text-align: center;
-
-    width: 310px;
-    height: 350px;
-
-    transition: 0.5s;
-
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.card:hover{
-    box-shadow: 0.6em 0.6em 0px #DDD92A;
+.card {
+  background-color: #2d2a32;
+
+  padding: 25px;
+  margin: 30px;
+
+  text-align: center;
+
+  width: 320px;
+  height: 340px;
+
+  transition: 0.5s;
+
+  border-radius: 10px;
 }
 
-.card .image img{
-    width: 225px;
-    height: 225px;
-    /* background-image: url('../resources/enzo.jpeg'); */
-    object-fit: cover;
-    border-radius: 50%;
+.card:hover {
+  box-shadow: 0.6em 0.6em 0px #ddd92a;
 }
 
-.card .socials{
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
+.card .image img {
+  width: 225px;
+  height: 225px;
+  /* background-image: url('../resources/enzo.jpeg'); */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card .socials {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+
+.info-card h4 {
+  color: #ddd92a;
 }
