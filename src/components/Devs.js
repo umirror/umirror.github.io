@@ -60,7 +60,7 @@ function Devs() {
                     </div>
                     <div className="info-card">
                         <h4>Júlio César</h4>
-                        <h5>Analytic Developer</h5>
+                        <h5>Analytical Developer</h5>
                     </div>
                     <div className="socials">
                         <a href="https://twitter.com/ky0uko__">
