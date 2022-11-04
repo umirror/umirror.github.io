@@ -5,4 +5,16 @@
 
   font-family: "JetBrains Mono", sans-serif;
   color: white;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  
+}
+
+*::selection{
+  color: black;
+  background: #ddd92a;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }

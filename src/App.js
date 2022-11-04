@@ -1,8 +1,11 @@
 import './App.css';
 import Home from './components/Home';
 import Info from './components/Info';
-import Devs from './components/Devs';
 import Footer from './components/Footer';
+// import Devs from './components/Devs';
+// import Como from './components/subpages/como';
+// import FAQ from './components/subpages/FAQ';
+// import Rumo from './components/subpages/rumo';
 
 
 function App() {
@@ -10,7 +13,10 @@ function App() {
     <div className="App">
       <Home />
       <Info />
-      <Devs />
+              {/* <Como />
+              <Rumo />
+              <FAQ />
+            <Devs /> */}
       <Footer />
     </div>
   );

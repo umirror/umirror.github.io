@@ -39,7 +39,7 @@ function Devs() {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src={luiz} />
+                        <img src={luiz} alt="#"/>
                     </div>
                     <div className="info-card">
                         <h4>Luiz Guilherme</h4>

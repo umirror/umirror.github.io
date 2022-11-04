@@ -1,5 +1,5 @@
 .info {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   /* border: 2px solid white; */
   background-color: #17161a;
@@ -7,23 +7,26 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-row: auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .box {
   background-color: #333;
   margin: 20px;
-  margin-right: 40px;
+  padding: 5px;
+  /* margin-right: 40px; */
   border-radius: 10px;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-size: 40px; */
+  /* font-size: 12 */
   transition: ease-in-out 0.5s;
 }
 
 .box:hover{
-  background-color: #fff;
+  background-color: #ddd92a;
+  color: #17161a;
 }
+
