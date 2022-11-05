@@ -1,7 +1,9 @@
-import React from "react";
+import {React, useRef, useEffect, useState} from "react";
 import "./Css/Info.css"
 import image from "./resources/👍.jpg"
-import { useRef } from "react";
+import {useInView} from "react-intersection-observer"
+
+// import { useRef } from "react";
 import Como from "./subpages/como";
 import Rumo from "./subpages/rumo";
 import FAQ from "./subpages/FAQ";
@@ -31,8 +33,16 @@ function Info() {
         devsRef.current.scrollIntoView({ behavior: "smooth" })
     }
 
+
+    // =========================================Codigo change on scroll============================================= //
+
+    // let pagesRef = useRef()
+
+    const { ref:pagesRef, inView} = useInView()
+
+
     return (
-        <div className="info-wrapper">
+        <div className="info-wrapper" >
             <div className="info" >
 
                 <p className="box" onClick={backToComo}>
@@ -51,7 +61,8 @@ function Info() {
 
 
             <div className="wrapper-pages">
-                <div className="como" ref={comoRef}>
+
+                <div className={` ${inView ? 'show' : 'hidden'} ` } ref={pagesRef}>
                     <Como />
                 </div>
                 <div className="como" ref={rumoRef}>
